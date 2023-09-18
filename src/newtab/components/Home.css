@@ -1,0 +1,43 @@
+.container {
+  align-items: center;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  max-width: 66%;
+  gap: 20px;
+}
+
+h1 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: balance;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.signup {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: orangered;
+  padding: 10px 20px;
+  max-width: fit-content;
+}

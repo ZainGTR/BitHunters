@@ -1,0 +1,73 @@
+.main {
+    display: flex;
+    justify-content: center;
+    
+    .login {
+        margin-top: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 1px 8px 17px 1px rgba(0,0,0,0.63);
+        -webkit-box-shadow: 1px 8px 17px 1px rgba(0,0,0,0.63);
+        -moz-box-shadow: 1px 8px 17px 1px rgba(0,0,0,0.63);
+        
+        .activeform {
+            
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            
+            .error {
+                min-height: 20px;
+            }
+
+            .forgot {
+                cursor: pointer;
+                color: gray;
+                
+            }
+            
+            .forgot:hover {
+                color: lightgray
+            }
+        }
+        
+        .hide {
+            display: none;
+        }
+        
+    }
+}
+    label {
+    font-size: 16px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 300px;
+    outline-style:none;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.welcomemsg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+    .switchtext {
+        font-weight: bold;
+        cursor: pointer;
+        color: orangered;
+    }
+}
+
+
